@@ -56,8 +56,16 @@
     width: 100%; 
  }
 
+ h2 {
+    color: #120323;
+ }
+
  /* Sidebar */
- 
+ aside {
+    background-color: #97bf04;
+    padding: 1rem;
+ }
+
  /* Footer */
 
  /* Media Queries */
