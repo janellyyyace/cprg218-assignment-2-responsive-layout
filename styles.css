@@ -46,3 +46,18 @@
     color: #97bf04;
  }
 
+ /* Main */
+ figure {
+    margin: 20px;
+ }
+ 
+ figure img {
+    border: 3px solid #d9043d ;
+    width: 100%; 
+ }
+
+ /* Sidebar */
+ 
+ /* Footer */
+
+ /* Media Queries */
