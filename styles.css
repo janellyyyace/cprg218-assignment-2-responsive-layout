@@ -74,5 +74,45 @@
     font-size: 14px;
     padding: 1rem;
  }
- 
+
  /* Media Queries */
+
+ /*
+ For devices less than 768px wide
+The logo and company name should be on separate lines
+All content should be in one column
+The puffin image should be centred horizontally and take up 100% of the width of the page
+
+For devices less than 1000px wide
+The logo and company name should be on the same line
+The puffin image should be displayed at a smaller size - no wider than 300px
+The puffin image and the caption for it should be displayed next to each other using flexbox
+The sidebar should still appear at the bottom of the page, taking 100% of the horizontal width
+
+For devices 1000px wide or greater
+3 column layout with the sidebar on the right
+*/
+
+@media screen and (max-width:768px){
+    header {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+     }
+  
+     figure {
+        display: flex;
+        gap: 1rem;
+     }
+  
+     figure img {
+       width: 300px;
+       height: 300px;
+     }
+
+     h2 {
+        margin-top: 0px;
+     }
+
+}
