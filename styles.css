@@ -67,5 +67,12 @@
  }
 
  /* Footer */
-
+ footer {
+    background-color:#d9043d;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 1rem;
+ }
+ 
  /* Media Queries */
