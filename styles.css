@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+ }
+
+ /* Notes */
+
+ /* 
+ 
+ Client Brief:
+
+ Puffin image should never be cut off
+ Sans-serif font
+ Any spacing not defined can be estimated but should allow for fluid and responsive design
+ 
+
+ Purple: #120323
+ Header BG & Animal Name (Puffin)
+
+ Green: #97bf04
+ Sidebar
+
+ Pink: #d9043d 
+ Footer & Pic Frame
+ 
+ */
+
+
+ /* General */
+ body {
+    font-family: 'Segoe UI', Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }
+ 
+ /* Header */
+ header {
+    background-color: #120323;
+    text-align: center;
+    padding: 1rem;
+ }
+ 
+ header h1 {
+    color: #97bf04;
+ }
+
