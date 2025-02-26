@@ -2,29 +2,6 @@
     box-sizing: border-box;
  }
 
- /* Notes */
-
- /* 
- 
- Client Brief:
-
- Puffin image should never be cut off
- Sans-serif font
- Any spacing not defined can be estimated but should allow for fluid and responsive design
- 
-
- Purple: #120323
- Header BG & Animal Name (Puffin)
-
- Green: #97bf04
- Sidebar
-
- Pink: #d9043d 
- Footer & Pic Frame
- 
- */
-
-
  /* General */
  body {
     font-family: 'Segoe UI', Verdana, Tahoma, sans-serif;
@@ -77,22 +54,6 @@
 
  /* Media Queries */
 
- /*
- For devices less than 768px wide
-The logo and company name should be on separate lines
-All content should be in one column
-The puffin image should be centred horizontally and take up 100% of the width of the page
-
-For devices less than 1000px wide
-The logo and company name should be on the same line
-The puffin image should be displayed at a smaller size - no wider than 300px
-The puffin image and the caption for it should be displayed next to each other using flexbox
-The sidebar should still appear at the bottom of the page, taking 100% of the horizontal width
-
-For devices 1000px wide or greater
-3 column layout with the sidebar on the right
-*/
-
 @media screen and (min-width:769px){
     header {
         display: flex;
@@ -116,3 +77,31 @@ For devices 1000px wide or greater
      }
 }
 
+@media screen and (min-width:1001px) {
+    figure {
+        display: flex;
+        gap: 1rem;
+     }
+  
+     figure img {
+       width: 300px;
+       height: 300px;
+     }
+
+    #container {
+        display: flex;
+     }
+  
+     main {
+        flex: 1;
+    }
+    
+    aside {
+        flex: 0 0 450px;
+     }
+
+     h3 {
+        margin-top: 0;
+        font-size: 20px;
+     } 
+}
