@@ -93,7 +93,7 @@ For devices 1000px wide or greater
 3 column layout with the sidebar on the right
 */
 
-@media screen and (max-width:768px){
+@media screen and (min-width:769px){
     header {
         display: flex;
         gap: 1rem;
@@ -114,5 +114,5 @@ For devices 1000px wide or greater
      h2 {
         margin-top: 0px;
      }
-
 }
+
