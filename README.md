@@ -7,7 +7,7 @@ Responsive web design means creating web pages that automatically adjust to diff
 
 ## Attributions
 
-This project includes HTML code and images provided by [Dan Stepheson](https://github.com/DanStephenson/cprg218-responsive-layout-assignment). 
+This project includes HTML code and images provided by [Dan Stephenson](https://github.com/DanStephenson/cprg218-responsive-layout-assignment). 
 
 CSS code in stylesheet named "styles.css" was written by [Janel Bañaria](https://github.com/janellyyyace/cprg218-assignment-2-responsive-layout/blob/main/styles.css).
 
